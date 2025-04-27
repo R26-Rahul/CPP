@@ -140,3 +140,27 @@ Tips: Both cin and cout belongs to the <iostream> library, which is short for st
 - char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
 - string - stores text, such as "Hello World". String values are surrounded by double quotes
 - bool - stores values with two states: true or false
+```
+#include<iostream>
+int(){
+int myNum = 15;  // myNum is 15
+myNum = 10;  // Now myNum is 10
+cout << myNum;  // Outputs 10
+}
+
+```
+```
+int myNum = 5;               // Integer (whole number without decimals)
+double myFloatNum = 5.99;    // Floating point number (with decimals)
+char myLetter = 'D';         // Character
+string myText = "Hello";     // String (text)
+bool myBoolean = true;       // Boolean (true or false)
+```
+
+### The general rules for naming variables are:
+
+- Names can contain letters, digits and underscores
+- Names must begin with a letter or an underscore (_)
+- Names are case-sensitive (myVar and myvar are different variables)
+- Names cannot contain whitespaces or special characters like !, #, %, etc.
+- Reserved words (like C++ keywords, such as int) cannot be used as names
